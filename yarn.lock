@@ -12312,12 +12312,13 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vite-plugin-vue2@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.2.2.tgz#0940b9afbb954bb817050c8ed452e4db8d1e94eb"
-  integrity sha512-3uLmmS+pM4nwHzaRWyfp030PBxTKFJWzrFjvFl9cKhULaZV4MQh8MW7YtShhyeCsjvwGmFGqVATuKroyHyYW9Q==
+vite-plugin-vue2@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.3.2.tgz#7c6f10e59047f132f9ce8e3ef7eb9e07c6b2b0ba"
+  integrity sha512-D6h4+/ugG2CtLEJ02OTBg0fHnWwaB1IaHadLn01SvqElxGEwwnOM7mXJ5BrUGJJ2tgUSzw0L4UqNQG0kBEwfHg==
   dependencies:
     "@babel/core" "^7.11.6"
+    "@babel/plugin-transform-typescript" "^7.13.0"
     "@rollup/pluginutils" "^4.1.0"
     "@vue/babel-helper-vue-jsx-merge-props" "^1.2.1"
     "@vue/babel-preset-jsx" "^1.2.4"
